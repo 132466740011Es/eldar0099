@@ -1,0 +1,106 @@
+/* *{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+
+} */
+h2 {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.container .slider__container {
+  position: fixed;
+  max-width: 80%;
+  margin: 0 auto;
+}
+/* arrow and pagination style */
+#slider{
+  padding: 150px 0;
+}
+
+#slider .swiper{
+  height: 600px;
+  margin-top: 50px;
+}
+
+#slider .swiper-slide,
+#slider .swiper-wrap
+{
+  
+ background-repeat: no-repeat;
+ background-size: cover;
+ background-position: center;
+}
+
+
+
+
+#slider .swiper-pagination-bullet{
+  background-color: white;
+  opacity: 0.7;
+  width: 10px;
+  height: 10px;
+}
+
+
+
+#slider span.swiper-pagination-bullet.swiper-pagination-bullet-active{
+  background-color: rgb(215, 102, 102);
+  opacity: 1;
+  
+}
+
+/* arrow and pagination style */
+
+
+/* chande arrows pic */
+
+#slider .swiper-button-prev:after,
+#slider .swiper-button-next:after{
+  content: none;
+}
+
+#slider .swiper-button-prev,
+#slider .swiper-button-next{
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 50px;
+  height: 50px;
+}
+
+#slider .swiper-button-prev{
+  background-image: url(../images/leonardo.png);
+  left: 30px;
+}
+
+
+
+#slider .swiper-button-next{
+  background-image: url(../images/leonardo.png);
+  right: 30px;
+}
+
+#slider .swiper-button-next img {
+  border-image: auto;
+  right: 30px;
+}
+
+
+
+
+
+
+#slider .swiper-wrapper img{
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+}
+/* chande arrows pic */
+/* #categories h2 {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+} */
+

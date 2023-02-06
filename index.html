@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ELDCOM.KG</title>
+   
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="./css/slider.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/burger.css">
+    <link rel="stylesheet" href="./css/modal.css">
+    <link rel="stylesheet" href="./css/media.css">
+    <link rel="stylesheet" href="./css/categories.css">
+    <link rel="stylesheet" href="./css/accordion.css">
+    <link rel="stylesheet" href="./css/perehodnik.css">
+    <link rel="stylesheet" href="./css/perehodnik.css">
+    <link rel="stylesheet" href="./css/creativ.css">
+    
+    
+    
+
+</head>
+
+<body>
+
+    <header>
+        <div class="container">
+            <div class="header__nav">
+                <img class="header__img"
+                    src="https://media.vse-sto.ru/autoservices/garant-logo.png">
+                <ul class="nav">
+                    <li class="nav__item"><a href="#categories">Товары</a></li>
+                    <li class="nav__item"><a href="#slider">Адрес</a></li>
+                    <li class="nav__item"><a href="#accordion">Контакты</a></li>
+                    <li class="nav__item"><a href="#telegram">Логин</a></li>
+                    <li class="nav__item"><a href="#footer">Магазин</a></li>
+                </ul>
+                <div class="mobile-btn">
+                    <span></span>
+                </div>
+            </div>
+        </div>
+        <div class="backdrop"></div>
+    </header>
+
+    <section id="main">
+        <div class="container main__container">
+            <div class="main__wrap">
+                <h1>Качественный ремонт</h1>
+                <p>Автосервис по ремонту и обслуживанию легковых автомобилей</p>
+
+
+                <button class="modalButton">Оставить заявку</button>
+                <button class="hide">CHECK</button>
+            </div>
+        </div>
+    </section>
+
+   
+
+    <form>
+    <div class="modalBackdrop">
+        <div class="modal">
+            <div class="modalHeader">
+                <!-- <h2>Please tell us your name</h2> -->
+                <p class="modalCloseButton">X</p>
+            </div>
+            <div class="modalContent">
+                <input type="text" id="inputMessage" placeholder="Ваше имя">
+
+                <input type="number" id="inputNumber" placeholder="Номер телефона">
+
+                <button class="modalApplyButton">Отправить</button>
+            </div>
+            <div class="thankYou">
+
+                </div>
+            </div>
+        </div>
+    </form>
+
+
+
+
+
+    <section id="categories" class="section__check-scroll">
+        <h2>categories</h2>
+        <div class="col-4">
+        <div class="categories__choise">
+            <!-- <button class="all">all</button>
+            <button class="burgers">burgers</button>
+            <button class="pizzas">pizzas</button>
+            <button class="drinks">drinks</button> -->
+        </div>
+        </div>
+    
+        <form id="form">
+            <input id="search" type="text">
+            <button>Searh</button>
+        </form>
+    
+        <div class="output">
+
+        </div>
+    </section>
+
+    <section id="slider" class="section__check-scroll">
+        <h2>slider</h2>
+        <div class="container slider__container">
+          <div class="swiper-wrapper">
+      </div>
+
+      <div class="swiper secondSwiper">
+          <div class="swiper-wrapper">
+             
+          </div>
+          <div class="swiper-button-next">
+          </div>
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-pagination"></div>
+      </div>
+  </div>
+    </section>
+
+    <section id="accordionSection" class="section__check-scroll">
+        <h2>accordion</h2>
+        <div class="container">
+          <div class="accordion">
+            
+
+          </div>
+        </div>
+    </section>
+
+    <section id="perehodnik" class="section__check-scroll">
+        <h2>perehodnik</h2>
+        <div class="container perehodnik__container">
+          <div class="swiper mySwiper">
+              <div class="swiper-wrapper">
+                  <div class="swiper-slide">Hello</div>
+                  <div class="swiper-slide">Hello</div>
+                  <div class="swiper-slide">Hello</div>
+                  <div class="swiper-slide">Hello</div>
+                  <div class="swiper-slide">Hello</div>
+              </div>
+              <div class="swiper-button-next"></div>
+              <div class="swiper-button-prev"></div>
+              <div class="swiper-pagination"></div>
+          </div>
+      </div>
+    </section>
+
+    <section id="map"  class="section__check-scroll">
+        <h2>map</h2>
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6">
+              <h3>Как нас найти</h3>
+              <p>Адрес нашего автосервиса <strong>Киевская 99</strong></p>
+              <p>Телефон нашего автосервиса <strong>+(996) 500 52 54 98</strong></p>
+            </div>
+            <div class="col-md-6"></div>
+            <div id="map" style="width: 50%; height: 40px"></div>
+            <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A329ec38728b3fdeb5aabc0052766bae80da03c2612ebdb19bfbd8ca838e44f3d&amp;width=500&amp;height=400&amp;lang=ru_RU&amp;scroll=false"></script>
+         
+          </div>
+        </div>
+    </section>
+
+   
+
+
+    <section id="creativ" class="section__check-scroll">
+        <h2>creativ block</h2>
+        <div class="creativSection">
+            <div class="snow">
+                
+            </div>
+        </div>
+    </section>
+
+    <section id="footer" class="section__check-scroll">
+        <h2>footer</h2>
+    </section>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script src="./js/perehodnik.js"></script>
+    <script src="./js/slider.js"></script>
+    <script src="//code.jivosite.com/widget/CEd57RP51F" async></script>
+    <script src="./js/script.js"></script>
+    <script src="./js/burger.js"></script>
+    <script src="./js/modal.js"></script>
+    <script src="./js/categories.js"></script>
+    <script src="./js/accordion.js"></script>
+    <script src="./js/perehodnik.js"></script>
+    
+    
+  
+    
+    
+</body>
+
+</html>
+
+
+
+
+
